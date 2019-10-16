@@ -183,6 +183,10 @@ strong {
 .footer-link:hover {
     color:rgb(167, 165, 167);
 }
+.footer-link:hover ~ .strong{
+    color:rgb(167, 165, 167);
+}
+
 
 
 .strong {
@@ -190,6 +194,12 @@ strong {
     color:black;
     font-weight: 900;
 }
+.strong:hover{
+    font-size: 1.6rem;
+    font-weight: 900;
+    color:rgb(167, 165, 167);
+}
+
 
 /************  Copyright Footer  *********/
 
